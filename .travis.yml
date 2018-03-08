@@ -34,7 +34,7 @@ branches:
 env:
     global:
         - TRAVIS_BUILD_TYPE=RelWithDebInfo
-        - TRAVIS_TESTS=On
+        - TRAVIS_TESTS=Off
 matrix:
     include:
         - os: linux
