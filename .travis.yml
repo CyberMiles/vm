@@ -78,3 +78,7 @@ script:
 after_success:
     - pip install --user codecov
     - codecov
+notifications:
+    slack:
+        rooms:
+            - secure: "g7C8hx3Sa5z6e+m+R0JtmALxjY5XXJVBnqjEbco3kK59hiKGXk165/Y92pLK8j0ESqgFZ77l0nwaE4sjYZOwfbqD3XyG4E3G+2ixHfC8wbz1m6VdsPUY9rfc0rJEpGRuE2SnnBYET5fUUPwoDd8I2W4lW0HeWabRhRNpgaiICYA01vsebTGJL1dCkvJcESyd8NJlCTCtDnAb904NfwaEDqt6xgCb8dwdIfrNUFbZJkIKMsjvM4q6jPGcLwiE7BTSgfG6qZVXKSTp9Qdor7LKGvvdbpQbaYY06FBYt16l8e0XBFfVDA3WW8EsX/X8ne+2TDiIbfW9fVueukdQLHWd2CMtWgCbI7Kqe0+ofYEnXk+3Xo1ePiNCp/gQZnojdR/46V+lEyTfzsYkHm9bTCkt8py7kExJGQ30B8+4kOePh9JtIcyMNz4D7mgMBDJEtKYNLVAxzP4xx5BXhbyD80SltRN+rIGrQ1+9PvbElfdHPiAyCRfvpUNTLimtr27L13mc4fwpXOflwX3zAt55Fs7foMt0kIAo6yJXJ1SnnuYm83X3GBRF7qpLvTWNuDQCKeQxxp0QrfnYGzD5bWAovZ6wSJq3ljqyt7WuinAVCp2NCfEEaDdY0gh41FLZM3oSq4DL5wRJu5PGJW4FrMRgcDsp1MEVNxN+WzXKcePuoSYc73o="
