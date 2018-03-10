@@ -1,20 +1,16 @@
-# cpp-ethereum - Ethereum C++ client
+# The CyberMiles VM
 
-This repository contains [cpp-ethereum](http://cpp-ethereum.org), the [Ethereum](https://ethereum.org) C++ client.
+This repository is a clone from [cpp-ethereum][], the [Ethereum][] C++ client.
 
-It is the third most popular of the Ethereum clients, behind [geth](https://github.com/ethereum/go-ethereum) (the [go](https://golang.org)
-client) and [Parity](https://github.com/ethcore/parity) (the [rust](https://www.rust-lang.org/) client).  The code is exceptionally
-[portable](http://cpp-ethereum.org/portability.html) and has been used successfully on a very broad range
-of operating systems and hardware.
+[cpp-ethereum]: http://cpp-ethereum.org
+[Ethereum]: https://ethereum.org
 
 
 ## Contact
 
-[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/ethereum/cpp-ethereum)
-[![GitHub Issues](https://img.shields.io/github/issues-raw/badges/shields.svg)](https://github.com/ethereum/cpp-ethereum/issues)
+[![GitHub Issues](https://img.shields.io/github/issues-raw/CyberMiles/vm.svg)](https://github.com/CyberMiles/vm/issues)
 
-- Chat in [cpp-ethereum channel on Gitter](https://gitter.im/ethereum/cpp-ethereum).
-- Report bugs, issues or feature requests using [GitHub issues](issues/new).
+- Report bugs, issues or feature requests using [GitHub issues](https://github.com/CyberMiles/vm/issues/new).
 
 
 ## Getting Started
@@ -25,8 +21,8 @@ has a Quick Start section.
 
 Operating system | Status
 ---------------- | ----------
-Ubuntu and macOS | [![TravisCI](https://img.shields.io/travis/ethereum/cpp-ethereum/develop.svg)](https://travis-ci.org/ethereum/cpp-ethereum)
-Windows          | [![AppVeyor](https://img.shields.io/appveyor/ci/ethereum/cpp-ethereum/develop.svg)](https://ci.appveyor.com/project/ethereum/cpp-ethereum)
+Ubuntu and macOS | [![TravisCI](https://img.shields.io/travis/CyberMiles/vm/develop.svg)](https://travis-ci.org/CyberMiles/vm)
+Windows          | [![AppVeyor](https://img.shields.io/appveyor/CyberMiles/vm/develop.svg)](https://ci.appveyor.com/project/CyberMiles/vm)
 
 
 ## Building from source
@@ -36,8 +32,8 @@ Windows          | [![AppVeyor](https://img.shields.io/appveyor/ci/ethereum/cpp-
 Git and GitHub is used to maintain the source code. Clone the repository by:
 
 ```shell
-git clone --recursive https://github.com/ethereum/cpp-ethereum.git
-cd cpp-ethereum
+git clone --recursive https://github.com/CyberMiles/vm.git cybermiles-vm
+cd cybermiles-vm
 ```
 
 The `--recursive` option is important. It orders git to clone additional 
@@ -120,20 +116,7 @@ cmake .. -G "Visual Studio 14 2015 Win64"
 
 ## Contributing
 
-[![Contributors](https://img.shields.io/github/contributors/ethereum/cpp-ethereum.svg)](https://github.com/ethereum/cpp-ethereum/graphs/contributors)
-[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/ethereum/cpp-ethereum)
-[![up-for-grabs](https://img.shields.io/github/issues-raw/ethereum/cpp-ethereum/up-for-grabs.svg)](https://github.com/ethereum/cpp-ethereum/labels/up-for-grabs)
-
-The current codebase is the work of many, many hands, with nearly 100
-[individual contributors](https://github.com/ethereum/cpp-ethereum/graphs/contributors) over the course of its development.
-
-Our day-to-day development chat happens on the
-[cpp-ethereum](https://gitter.im/ethereum/cpp-ethereum) Gitter channel.
-
-All contributions are welcome! We try to keep a list of tasks that are suitable
-for newcomers under the tag 
-[up-for-grabs](https://github.com/ethereum/cpp-ethereum/labels/up-for-grabs).
-If you have any questions, please just ask.
+[![Contributors](https://img.shields.io/github/contributors/CyberMiles/vm.svg)](https://github.com/CyberMiles/vm/graphs/contributors)
 
 Please read [CONTRIBUTING](CONTRIBUTING.md) and [CODING_STYLE](CODING_STYLE.md) 
 thoroughly before making alterations to the code base.
@@ -159,6 +142,6 @@ To run the tests, make sure you clone https://github.com/ethereum/tests and poin
 
 ## License
 
-[![License](https://img.shields.io/github/license/ethereum/cpp-ethereum.svg)](LICENSE)
+[![License](https://img.shields.io/github/license/CyberMiles/vm.svg)](LICENSE)
 
 All contributions are made under the [GNU General Public License v3](https://www.gnu.org/licenses/gpl-3.0.en.html). See [LICENSE](LICENSE).
